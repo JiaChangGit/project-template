@@ -1,5 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++,git,visualstudiocode,visualstudio,python,intellij,java,notepadpp,vim,vivado,xilinxvivado,xilinx,go,codeblocks,cmake,vcpkg,windows,csharp,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,git,visualstudiocode,visualstudio,python,intellij,java,notepadpp,vim,vivado,xilinxvivado,xilinx,go,codeblocks,cmake,vcpkg,windows,csharp,jupyternotebooks
+# Compiled Object files
+*/.DS_Store
 
 ### C ###
 # Prerequisites
@@ -76,20 +78,21 @@ dkms.conf
 
 ### CMake ###
 #CMakeLists.txt.user
-#CMakeCache.txt
-#CMakeFiles
-#CMakeScripts
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
 Testing
 #Makefile
-#cmake_install.cmake
-#install_manifest.txt
-#compile_commands.json
-#CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
 _deps
 
 ### CMake Patch ###
 # External projects
 *-prefix/
+build/Debug/
 
 ### CodeBlocks ###
 # specific to CodeBlocks IDE
